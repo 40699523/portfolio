@@ -21,7 +21,11 @@ import SvgNav from "@components/Icon/Nav.astro"
         </a>
     </div>
 </header>
-
+<script is:inline>
+function toggleDarkMode(){
+    document.documentElement.classList.toggle('dark')
+}
+</script>
 
 <style>
 #header{
